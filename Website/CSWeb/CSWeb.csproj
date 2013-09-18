@@ -153,6 +153,56 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\AdminSite.Master" />
+    <Content Include="Admin\Attributes.aspx" />
+    <Content Include="Admin\CacheUtility.aspx" />
+    <Content Include="Admin\CategoryList.aspx" />
+    <Content Include="Admin\Country.aspx" />
+    <Content Include="Admin\CountryList.aspx" />
+    <Content Include="Admin\CouponItem.aspx" />
+    <Content Include="Admin\CouponList.aspx" />
+    <Content Include="Admin\css\Admin.css" />
+    <Content Include="Admin\CustomerList.aspx" />
+    <Content Include="Admin\CustomerOrderDetail.aspx" />
+    <Content Include="Admin\CustomerOrders.aspx" />
+    <Content Include="Admin\CustomerPrint.aspx" />
+    <Content Include="Admin\CustomFieldList.aspx" />
+    <Content Include="Admin\CustomShipping.aspx" />
+    <Content Include="Admin\CustomShippingList.aspx" />
+    <Content Include="Admin\EmailItem.aspx" />
+    <Content Include="Admin\EmailList.aspx" />
+    <Content Include="Admin\ErrorLog.aspx" />
+    <Content Include="Admin\FulfillmentHouseProviderList.aspx" />
+    <Content Include="Admin\Login.aspx" />
+    <Content Include="Admin\LogOut.aspx" />
+    <Content Include="Admin\Main.aspx" />
+    <Content Include="Admin\MIdReport.aspx" />
+    <Content Include="Admin\OrderDetail.aspx" />
+    <Content Include="Admin\OrderList.aspx" />
+    <Content Include="Admin\PathItem.aspx" />
+    <Content Include="Admin\PathList.aspx" />
+    <Content Include="Admin\PaymentProviderList.aspx" />
+    <Content Include="Admin\PromoCodeDetail.aspx" />
+    <Content Include="Admin\PromoCodeSummary.aspx" />
+    <Content Include="Admin\ReportMain.aspx" />
+    <Content Include="Admin\Reports.aspx" />
+    <Content Include="Admin\ResourceList.aspx" />
+    <Content Include="Admin\Shipping.aspx" />
+    <Content Include="Admin\SitePrefItem.aspx" />
+    <Content Include="Admin\SKUItem.aspx" />
+    <Content Include="Admin\SKUList.aspx" />
+    <Content Include="Admin\State.aspx" />
+    <Content Include="Admin\StateTax.aspx" />
+    <Content Include="Admin\TaxList.aspx" />
+    <Content Include="Admin\TemplateItem.aspx" />
+    <Content Include="Admin\TemplateList.aspx" />
+    <Content Include="Admin\TransactionReport.aspx" />
+    <Content Include="Admin\UserControls\Attributes.ascx" />
+    <Content Include="Admin\UserEdit.aspx" />
+    <Content Include="Admin\Users.aspx" />
+    <Content Include="Admin\VersionCategoryList.aspx" />
+    <Content Include="Admin\VersionList.aspx" />
+    <Content Include="Admin\VersionReport.aspx" />
     <Content Include="bin\AjaxControlToolkit.dll" />
     <Content Include="Commission.aspx" />
     <Content Include="Content\Images\about_bg.jpg" />
@@ -384,6 +434,343 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\AdminSite.Master.cs">
+      <DependentUpon>AdminSite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminSite.Master.designer.cs">
+      <DependentUpon>AdminSite.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Attributes.aspx.cs">
+      <DependentUpon>Attributes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Attributes.aspx.designer.cs">
+      <DependentUpon>Attributes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CacheUtility.aspx.cs">
+      <DependentUpon>CacheUtility.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CacheUtility.aspx.designer.cs">
+      <DependentUpon>CacheUtility.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CategoryList.aspx.cs">
+      <DependentUpon>CategoryList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Country.aspx.cs">
+      <DependentUpon>Country.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Country.aspx.designer.cs">
+      <DependentUpon>Country.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CountryList.aspx.cs">
+      <DependentUpon>CountryList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CountryList.aspx.designer.cs">
+      <DependentUpon>CountryList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CouponItem.aspx.cs">
+      <DependentUpon>CouponItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CouponItem.aspx.designer.cs">
+      <DependentUpon>CouponItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CouponList.aspx.cs">
+      <DependentUpon>CouponList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CouponList.aspx.designer.cs">
+      <DependentUpon>CouponList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CustomerList.aspx.cs">
+      <DependentUpon>CustomerList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CustomerList.aspx.designer.cs">
+      <DependentUpon>CustomerList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CustomerOrderDetail.aspx.cs">
+      <DependentUpon>CustomerOrderDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CustomerOrderDetail.aspx.designer.cs">
+      <DependentUpon>CustomerOrderDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CustomerOrders.aspx.cs">
+      <DependentUpon>CustomerOrders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CustomerOrders.aspx.designer.cs">
+      <DependentUpon>CustomerOrders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CustomerPrint.aspx.cs">
+      <DependentUpon>CustomerPrint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CustomerPrint.aspx.designer.cs">
+      <DependentUpon>CustomerPrint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CustomFieldList.aspx.cs">
+      <DependentUpon>CustomFieldList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CustomFieldList.aspx.designer.cs">
+      <DependentUpon>CustomFieldList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CustomShipping.aspx.cs">
+      <DependentUpon>CustomShipping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CustomShipping.aspx.designer.cs">
+      <DependentUpon>CustomShipping.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CustomShippingList.aspx.cs">
+      <DependentUpon>CustomShippingList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CustomShippingList.aspx.designer.cs">
+      <DependentUpon>CustomShippingList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EmailItem.aspx.cs">
+      <DependentUpon>EmailItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EmailItem.aspx.designer.cs">
+      <DependentUpon>EmailItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EmailList.aspx.cs">
+      <DependentUpon>EmailList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EmailList.aspx.designer.cs">
+      <DependentUpon>EmailList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ErrorLog.aspx.cs">
+      <DependentUpon>ErrorLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ErrorLog.aspx.designer.cs">
+      <DependentUpon>ErrorLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FulfillmentHouseProviderList.aspx.cs">
+      <DependentUpon>FulfillmentHouseProviderList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\FulfillmentHouseProviderList.aspx.designer.cs">
+      <DependentUpon>FulfillmentHouseProviderList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\LogOut.aspx.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\LogOut.aspx.designer.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\MIdReport.aspx.cs">
+      <DependentUpon>MIdReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\MIdReport.aspx.designer.cs">
+      <DependentUpon>MIdReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\OrderDetail.aspx.cs">
+      <DependentUpon>OrderDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\OrderDetail.aspx.designer.cs">
+      <DependentUpon>OrderDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\OrderList.aspx.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\OrderList.aspx.designer.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PathItem.aspx.cs">
+      <DependentUpon>PathItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\PathItem.aspx.designer.cs">
+      <DependentUpon>PathItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PathList.aspx.cs">
+      <DependentUpon>PathList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\PathList.aspx.designer.cs">
+      <DependentUpon>PathList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PaymentProviderList.aspx.cs">
+      <DependentUpon>PaymentProviderList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\PaymentProviderList.aspx.designer.cs">
+      <DependentUpon>PaymentProviderList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PromoCodeDetail.aspx.cs">
+      <DependentUpon>PromoCodeDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\PromoCodeDetail.aspx.designer.cs">
+      <DependentUpon>PromoCodeDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\PromoCodeSummary.aspx.cs">
+      <DependentUpon>PromoCodeSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\PromoCodeSummary.aspx.designer.cs">
+      <DependentUpon>PromoCodeSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ReportMain.aspx.cs">
+      <DependentUpon>ReportMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ReportMain.aspx.designer.cs">
+      <DependentUpon>ReportMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Reports.aspx.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Reports.aspx.designer.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ResourceList.aspx.cs">
+      <DependentUpon>ResourceList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ResourceList.aspx.designer.cs">
+      <DependentUpon>ResourceList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shipping.aspx.cs">
+      <DependentUpon>Shipping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shipping.aspx.designer.cs">
+      <DependentUpon>Shipping.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SitePrefItem.aspx.cs">
+      <DependentUpon>SitePrefItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SitePrefItem.aspx.designer.cs">
+      <DependentUpon>SitePrefItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SKUItem.aspx.cs">
+      <DependentUpon>SKUItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SKUItem.aspx.designer.cs">
+      <DependentUpon>SKUItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SKUList.aspx.cs">
+      <DependentUpon>SKUList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SKUList.aspx.designer.cs">
+      <DependentUpon>SKUList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\State.aspx.cs">
+      <DependentUpon>State.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\State.aspx.designer.cs">
+      <DependentUpon>State.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\StateTax.aspx.cs">
+      <DependentUpon>StateTax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\StateTax.aspx.designer.cs">
+      <DependentUpon>StateTax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TaxList.aspx.cs">
+      <DependentUpon>TaxList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TaxList.aspx.designer.cs">
+      <DependentUpon>TaxList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TemplateItem.aspx.cs">
+      <DependentUpon>TemplateItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TemplateItem.aspx.designer.cs">
+      <DependentUpon>TemplateItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TemplateList.aspx.cs">
+      <DependentUpon>TemplateList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TemplateList.aspx.designer.cs">
+      <DependentUpon>TemplateList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TransactionReport.aspx.cs">
+      <DependentUpon>TransactionReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TransactionReport.aspx.designer.cs">
+      <DependentUpon>TransactionReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserControls\Attributes.ascx.cs">
+      <DependentUpon>Attributes.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserControls\Attributes.ascx.designer.cs">
+      <DependentUpon>Attributes.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserEdit.aspx.cs">
+      <DependentUpon>UserEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserEdit.aspx.designer.cs">
+      <DependentUpon>UserEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users.aspx.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users.aspx.designer.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\VersionCategoryList.aspx.cs">
+      <DependentUpon>VersionCategoryList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\VersionCategoryList.aspx.designer.cs">
+      <DependentUpon>VersionCategoryList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\VersionList.aspx.cs">
+      <DependentUpon>VersionList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\VersionList.aspx.designer.cs">
+      <DependentUpon>VersionList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\VersionReport.aspx.cs">
+      <DependentUpon>VersionReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\VersionReport.aspx.designer.cs">
+      <DependentUpon>VersionReport.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Code\FulfillmentHouse\Acmg.cs" />
     <Compile Include="App_Code\FulfillmentHouse\Chargify.cs" />
     <Compile Include="AboutUs.aspx.cs">
