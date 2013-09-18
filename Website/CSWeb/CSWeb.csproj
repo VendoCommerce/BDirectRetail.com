@@ -183,6 +183,11 @@
     <Content Include="Admin\PromoCodeSummary.aspx" />
     <Content Include="Admin\ReportMain.aspx" />
     <Content Include="Admin\Reports.aspx" />
+    <Content Include="Admin\Reports\MainReport.aspx" />
+    <Content Include="Admin\Reports\MainVersionReport.aspx" />
+    <Content Include="Admin\Reports\MIdReport.aspx" />
+    <Content Include="Admin\Reports\StandardReport.aspx" />
+    <Content Include="Admin\Reports\VersionReport.aspx" />
     <Content Include="Admin\ResourceList.aspx" />
     <Content Include="Admin\Shipping.aspx" />
     <Content Include="Admin\SitePrefItem.aspx" />
@@ -202,6 +207,7 @@
     <Content Include="Admin\VersionList.aspx" />
     <Content Include="Admin\VersionReport.aspx" />
     <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="Commission.aspx" />
     <Content Include="Content\Images\admin\add.gif" />
     <Content Include="Content\Images\admin\amexCard.gif" />
     <Content Include="Content\Images\admin\cancel.gif" />
@@ -236,6 +242,26 @@
     <Content Include="Content\Images\gotocart_btn.png" />
     <Content Include="AboutUs.aspx" />
     <Content Include="Commision.aspx" />
+    <Content Include="Content\Video\ctavideo.mp4" />
+    <Content Include="footer.html" />
+    <Content Include="header.html" />
+    <Content Include="Scripts\fancybox\fancybox_loading%402x.gif" />
+    <Content Include="Scripts\fancybox\fancybox_overlay.png" />
+    <Content Include="Scripts\fancybox\fancybox_sprite%402x.png" />
+    <Content Include="Scripts\jquery.cycle.js" />
+    <Content Include="Scripts\jwplayer\beelden.xml" />
+    <Content Include="Scripts\jwplayer\bekle.xml" />
+    <Content Include="Scripts\jwplayer\five.xml" />
+    <Content Include="Scripts\jwplayer\glow.xml" />
+    <Content Include="Scripts\jwplayer\jwplayer.flash.swf" />
+    <Content Include="Scripts\jwplayer\jwplayer.html5.js" />
+    <Content Include="Scripts\jwplayer\modieus.xml" />
+    <Content Include="Scripts\jwplayer\README.html" />
+    <Content Include="Scripts\jwplayer\roundster.xml" />
+    <Content Include="Scripts\jwplayer\six.xml" />
+    <Content Include="Scripts\jwplayer\stormtrooper.xml" />
+    <Content Include="Scripts\jwplayer\vapor.xml" />
+    <Content Include="StrategicPartners.aspx" />
     <Content Include="StratigicPartners.aspx" />
     <Content Include="HTML\Commission.htm" />
     <Content Include="HTML\AboutUs.htm" />
@@ -377,6 +403,7 @@
     <Content Include="UserControls\ShippingForm.ascx" />
     <Content Include="UserControls\ShoppingCartControl.ascx" />
     <Content Include="UserControls\TrackingPixels.ascx" />
+    <Content Include="video.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -384,6 +411,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Deploy-Dev.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
   </ItemGroup>
@@ -588,6 +618,36 @@
     </Compile>
     <Compile Include="Admin\Reports.aspx.designer.cs">
       <DependentUpon>Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Reports\MainReport.aspx.cs">
+      <DependentUpon>MainReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Reports\MainReport.aspx.designer.cs">
+      <DependentUpon>MainReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Reports\MainVersionReport.aspx.cs">
+      <DependentUpon>MainVersionReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Reports\MainVersionReport.aspx.designer.cs">
+      <DependentUpon>MainVersionReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Reports\MIdReport.aspx.cs">
+      <DependentUpon>MIdReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Reports\MIdReport.aspx.designer.cs">
+      <DependentUpon>MIdReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Reports\StandardReport.aspx.cs">
+      <DependentUpon>StandardReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Reports\StandardReport.aspx.designer.cs">
+      <DependentUpon>StandardReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Reports\VersionReport.aspx.cs">
+      <DependentUpon>VersionReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Reports\VersionReport.aspx.designer.cs">
+      <DependentUpon>VersionReport.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\ResourceList.aspx.cs">
       <DependentUpon>ResourceList.aspx</DependentUpon>
