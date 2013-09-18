@@ -19,14 +19,14 @@
     <td><span class="error"> <asp:RequiredFieldValidator runat="server" ControlToValidate="txtFirstName" ID="rfvFistName"
                                 ErrorMessage="* First Name is required" EnableClientScript="true" Display="Dynamic"
                                 Text="* First Name is required" ValidationGroup="Group1"  /></span>
-
-     <asp:TextBox ID="txtFirstName" runat="server" CssClass="address_input" MaxLength="100" placeholder="First Name*" /></td>
+ <label for="textfield" class="address_label">* First Name</label>
+     <asp:TextBox ID="txtFirstName" runat="server" CssClass="address_input" MaxLength="100"  /></td>
     <td>
      <span class="error"><asp:RequiredFieldValidator runat="server" ControlToValidate="txtLastName" ID="rfvLastName"
                                 ErrorMessage="* Last Name is required" EnableClientScript="true" Display="Dynamic"
                                 Text="* Last Name is required" ValidationGroup="Group1" /></span>
-  
-      <asp:TextBox ID="txtLastName" runat="server" CssClass="address_input" MaxLength="100"  placeholder="Last Name*" />
+  <label for="textfield" class="address_label">* Last  Name</label>
+      <asp:TextBox ID="txtLastName" runat="server" CssClass="address_input" MaxLength="100"   />
      
       </td>
   </tr>
@@ -40,9 +40,9 @@
                                 Display="Dynamic" Text="* Valid email is require" ErrorMessage="* Valid email is required" ext="*" 
                                 ValidationExpression="^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" />                        
     </span>
- 
+ <label for="textfield" class="address_label">* Email Address</label>
      
-       <asp:TextBox ID="txtEmail" runat="server" CssClass="address_input" MaxLength="100" placeholder="Email Address*" />
+       <asp:TextBox ID="txtEmail" runat="server" CssClass="address_input" MaxLength="100"  />
       </td>
     <td>
      <span class="error">
@@ -53,13 +53,13 @@
                                 <asp:CompareValidator runat="server" ControlToValidate="txtEmailReType" ControlToCompare="txtEmail" ID="CompareValidator" 
                                 ErrorMessage="*Email Address does not match" EnableClientScript="true" Display="Dynamic" Text="Email does not match"></asp:CompareValidator>
      </span>
-    
-    <asp:TextBox ID="txtEmailReType"  CssClass="address_input" runat="server" placeholder="Retype Email Address*"></asp:TextBox>
+    <label for="textfield" class="address_label">* Re-type Email Address</label>
+    <asp:TextBox ID="txtEmailReType"  CssClass="address_input" runat="server"></asp:TextBox>
     </td>
   </tr>
   <tr>
-    <td>
-      <asp:TextBox ID="txtPhone" CssClass="address_input" runat="server" placeholder="Phone Number"></asp:TextBox></td>
+    <td>  <label for="textfield" class="address_label">Phone Number</label>
+      <asp:TextBox ID="txtPhone" CssClass="address_input" runat="server"></asp:TextBox></td>
     <td>&nbsp;</td>
   </tr>
   <tr>
@@ -68,13 +68,13 @@
      <asp:RequiredFieldValidator runat="server" ControlToValidate="txtMessage" ID="RequiredFieldValidator5"
                                 ErrorMessage="* Please type your message" EnableClientScript="true" Display="Dynamic"
                                 Text="* Please type your message" ValidationGroup="Group1"  /></span>
-  
 
-     <asp:TextBox ID="txtMessage" CssClass="address_input2" runat="server" TextMode="MultiLine" Columns="20" Rows="2" placeholder="Comments*"></asp:TextBox>
+<label for="textfield" class="address_label">* Message</label>
+     <asp:TextBox ID="txtMessage" CssClass="address_input2" runat="server" TextMode="MultiLine" Columns="20" Rows="2"></asp:TextBox>
       </td>
     </tr>
   <tr>
-    <td colspan="2" align="left"><asp:ImageButton ID="ImageButtonSubmit" src="/content/images/btn_submit.png"
+    <td colspan="2" align="right"><asp:ImageButton ID="ImageButtonSubmit" src="/content/images/btn_submit.gif"
                                     ValidationGroup="Group1"   runat="server" OnClick="btnContactSubmit" /></td>
   </tr>
  
