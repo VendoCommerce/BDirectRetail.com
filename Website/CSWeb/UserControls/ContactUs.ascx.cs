@@ -89,7 +89,7 @@ namespace CSWeb.Root.UserControls
                     BodyTemplate = BodyTemplate.Replace("{PhoneNumber}", "Phone: " + txtPhone.Text.Trim());
                     BodyTemplate = BodyTemplate.Replace("{Message}", "Message: " + txtMessage.Text.Trim());
 
-                    string custom_subject = "Website new biz " + txtPhone.Text.Trim();
+                    string custom_subject = emailTemplate.Subject.Replace("{PhoneNumber}", txtPhone.Text.Trim());
                     MailMessage _oMailMessage = new MailMessage(emailTemplate.FromAddress, toAddress, custom_subject, BodyTemplate);
                     _oMailMessage.IsBodyHtml = true;
                     if (ToAddressList.Length > 1)
