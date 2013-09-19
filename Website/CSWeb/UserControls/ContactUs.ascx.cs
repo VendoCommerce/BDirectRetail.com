@@ -20,6 +20,7 @@ namespace CSWeb.Root.UserControls
 {
     public partial class ContactUs : CSBaseUserControl
     {
+        public string errorMSG;
         protected bool ValidateData()
         {
             bool _error = false;
@@ -44,6 +45,13 @@ namespace CSWeb.Root.UserControls
                 _error = true;
                 sbErrorMessages.Append("Please enter your message" + "<br />");
             }
+            if (!CommonHelper.IsValidPhone(txtPhone.Text))
+            {
+                _error = true;
+                sbErrorMessages.Append(ResourceHelper.GetResoureValue("PhoneNumberErrorMsg") + "<br />");
+            }
+            
+            errorMSG = sbErrorMessages.ToString ();
             return _error;
         }
 
@@ -81,7 +89,7 @@ namespace CSWeb.Root.UserControls
                     BodyTemplate = BodyTemplate.Replace("{PhoneNumber}", "Phone: " + txtPhone.Text.Trim());
                     BodyTemplate = BodyTemplate.Replace("{Message}", "Message: " + txtMessage.Text.Trim());
 
-                    string custom_subject= "Website new biz " + txtPhone.Text.Trim();
+                    string custom_subject = "Website new biz " + txtPhone.Text.Trim();
                     MailMessage _oMailMessage = new MailMessage(emailTemplate.FromAddress, toAddress, custom_subject, BodyTemplate);
                     _oMailMessage.IsBodyHtml = true;
                     if (ToAddressList.Length > 1)
@@ -103,6 +111,11 @@ namespace CSWeb.Root.UserControls
                         txtMessage.Text = "";
                         txtEmailReType.Text = "";
                     }
+                }
+                else
+                {
+
+                    haserrors.Text = errorMSG;
                 }
             }
             catch (Exception)

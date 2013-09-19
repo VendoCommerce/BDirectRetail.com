@@ -63,9 +63,9 @@
     <asp:RequiredFieldValidator runat="server" ControlToValidate="txtPhone" ID="RequiredFieldValidator6"
                                 ErrorMessage="* Phone number is required" EnableClientScript="true" Display="Dynamic"
                                 Text="* Phone number is required" ValidationGroup="Group1" />
-                                <asp:RegularExpressionValidator ID="RegularExpressionValidator5" runat="server" ControlToValidate="txtPhone"
+                                <asp:RegularExpressionValidator ID="RegularExpressionValidator50" runat="server" ControlToValidate="txtPhone"
                                 Display="Dynamic" Text="* Valid Phone number is required" ErrorMessage="* Valid Phone number is required" ext="*" 
-                                ValidationExpression="\d"/>                        
+                                ValidationExpression="^[0-9]{10,11}$" ValidationGroup="Group1" />                        
     </span>
       <label for="textfield" class="address_label">Phone Number</label>
       <asp:TextBox ID="txtPhone" CssClass="address_input" runat="server"></asp:TextBox></td>
