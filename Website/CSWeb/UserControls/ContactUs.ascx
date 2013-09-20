@@ -1,6 +1,14 @@
 <%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ContactUs.ascx.cs" Inherits="CSWeb.Root.UserControls.ContactUs" %>
 
 
+    <style type="text/css">
+        .style1
+        {
+            height: 43px;
+        }
+    </style>
+
+
     <p style="padding: 0px 0 0 20px; margin: 0;">
                         <asp:Label ID="haserrors" runat="server" Visible="False" CssClass="error">
 						Please correct the following errors:
@@ -31,7 +39,7 @@
       </td>
   </tr>
   <tr>
-    <td>
+    <td class="style1">
     <span class="error">
      <asp:RequiredFieldValidator runat="server" ControlToValidate="txtEmail" ID="rfvEmail"
                                 ErrorMessage="* Email is required" EnableClientScript="true" Display="Dynamic"
@@ -44,7 +52,7 @@
      
        <asp:TextBox ID="txtEmail" runat="server" CssClass="address_input" MaxLength="100"  />
       </td>
-    <td>
+    <td class="style1">
      <span class="error">
 
       <asp:RequiredFieldValidator runat="server" ControlToValidate="txtEmailReType" ID="RequiredFieldValidator1"
@@ -67,7 +75,7 @@
                                 Display="Dynamic" Text="* Valid Phone number is required" ErrorMessage="* Valid Phone number is required" ext="*" 
                                 ValidationExpression="^[0-9]{10,11}$" ValidationGroup="Group1" />                        
     </span>
-      <label for="textfield" class="address_label">Phone Number</label>
+      <label for="textfield" class="address_label">* Phone Number</label>
       <asp:TextBox ID="txtPhone" CssClass="address_input" runat="server"></asp:TextBox></td>
     <td>&nbsp;</td>
   </tr>
