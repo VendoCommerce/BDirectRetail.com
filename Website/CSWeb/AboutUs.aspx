@@ -38,15 +38,15 @@
     As your brand advocate, bdirect guides you through the entire process and orchestrates the efforts of our on-site teams from our <br>
     Los Angeles office. These specialized teams include: </p>
   <ul>
-    <li><strong>Team Direct Management</strong> — Based in Bentonville, Arkansas, this best-in-class sales and marketing group develops top-tier programs exclusively for brands at Walmart and Sam’s Club. Here, bdirect Super Brokers work with top marketing professionals to provide 360° solutions that help small and m edium-sized brands succeed at the world’s largest retailer.</li>
+    <li><strong>Team Direct Management</strong> — Based in Bentonville, Arkansas, this best-in-class sales and marketing group develops top-tier programs exclusively for brands at Walmart and Sam’s Club. Here, bdirect Super Brokers work with top marketing professionals to provide 360° solutions that help small and medium-sized brands succeed at the world’s largest retailer.</li>
     <li><strong>Team Direct Seattle</strong> is our Seattle-based group. Here, bdirect Super Brokers lead a dedicated team that specializes in helping clients build successful retail and online sales programs at Costco and Amazon.</li>
     <li><strong>Team Direct Dallas</strong> is our Dallas-based group that helps growing companies launch successful programs with <br>
       7-Eleven — the world’s largest convenience store.</li>
   </ul>
   <p><strong>Your bottom line is our top priority.</strong><br>
     Every program we design, every promotion we launch, every action we take must satisfy one question — does it sell more of your products? At bdirect, we measure success solely through the sales we generate. We bring this sales-centric focus to every meeting, every program, and every client we serve, every day. </p>
-  <p>Find out how bdirect can promote your brand and build your sales: call 310-914-5999.
-  </p>
+  <p><strong>Find out how bdirect can promote your brand and build your sales: call 310-914-5999.
+  </strong></p>
   
   </div>
    </div>

@@ -27,7 +27,7 @@
   <h2>Retail Network</h2>
   <h3>The reach to take products farther, 
   the resources to drive sales higher.</h3>
-  <p class="f14">Whatever the retailer, whatever the product, our Super Broker Network ensures that your brand has the very best representation and promotion. bdirect teams in Seattle, Dallas, and Bentonville manage brands at Costco, Amazon, 7-Eleven, Walmart and Sam’s Club. This network of resources means you get the best team on the ground at the nation’s top Mass, Club, and C-Stores. </p>
+  <p class="f14">Whatever the retailer, whatever the product, our Super Broker Network ensures that your brand has the very best representation and promotion. <strong>bdirect</strong> teams in Seattle, Dallas, and Bentonville manage brands at Costco, Amazon, 7-Eleven, Walmart and Sam’s Club. This network of resources means you get the best team on the ground at the nation’s top Mass, Club, and C-Stores. </p>
  <p class="f14">Our sterling sales network is augmented by exceptional partners at each of the other top retailers in the US. The bdirect Los Angeles office serves as both your brand ambassador and sales strategy center — ensuring timely execution, seamless marketing, and speed-to-market.</p>
   <p class="f14">&nbsp;</p>
   <p class="f14"><strong>bdirect retail partners include: </strong><br>

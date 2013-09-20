@@ -48,15 +48,13 @@
 <div class="prev" style="float:left; margin-right: 65px; width: 17px; margin-top: 120px;"><img src="Content/Images/arrow_prev.png" width="17" height="41" /></div>
 <div class="slides" style="width: 380px; float:left;">
 <div>
-  <p class="text-center pad20"><img src="Content/Images/logo_generaldisplayworks.jpg" width="264" height="111" /></p>
-  <p><span class="orange bold f14">General Displayworks -</span>  General DisplayWorks® is a leading 
-    retail merchandising company creating in-store programs that 
-    engage shoppers, are built around meaningful insights, rooted in 
-    strategies that influence shopper behavior, and deliver profitable 
-    sales. From point-of-sale displays to in-store signage, store fixturing 
-    and retail packaging, General DisplayWorks® specializes in solutions 
-    that help you convert shoppers to buyers.</p>
+  <p class="text-center"><img src="Content/Images/logo_retaildirectmedia.png" width="227" height="110" /></p>
+  <p><span class="orange bold f14">Retail Direct Media -</span>  Retail Direct Media is a full 
+    service Direct Response media agency. By utilizing all 
+    forms of Direct Response media, they can drive results 
+    at retail at a fraction of the cost of traditional media.</p>
 </div>
+
 <div>
   <p class="text-center"><img src="Content/Images/logo_cs.png" width="341" height="94" /></p>
   <p><span class="orange bold f14">Conversion Systems -</span>  Conversion Systems specializes in 
@@ -68,11 +66,14 @@
     mobile services, and more.</p>
 </div>
 <div>
-  <p class="text-center"><img src="Content/Images/logo_retaildirectmedia.png" width="227" height="110" /></p>
-  <p><span class="orange bold f14">Retail Direct Media -</span>  Retail Direct Media is a full 
-    service Direct Response media agency. By utilizing all 
-    forms of Direct Response media, they can drive results 
-    at retail at a fraction of the cost of traditional media.</p>
+  <p class="text-center pad20"><img src="Content/Images/logo_generaldisplayworks.jpg" width="264" height="111" /></p>
+  <p><span class="orange bold f14">General Displayworks -</span>  General DisplayWorks® is a leading 
+    retail merchandising company creating in-store programs that 
+    engage shoppers, are built around meaningful insights, rooted in 
+    strategies that influence shopper behavior, and deliver profitable 
+    sales. From point-of-sale displays to in-store signage, store fixturing 
+    and retail packaging, General DisplayWorks® specializes in solutions 
+    that help you convert shoppers to buyers.</p>
 </div>
 
 </div>
