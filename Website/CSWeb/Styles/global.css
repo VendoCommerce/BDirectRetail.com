@@ -126,16 +126,54 @@ body {
 	position:absolute;
 	width: 730px;
 	text-align:right;	
-	top: 50px;
+	top: 40px;
 	right: 0;
 }
-
-.header_nav a {
+.header_nav ul li {
+	display: inline-block;
+	list-style: none;
+	position:relative;
+	vertical-align: top;
+	transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+}
+.header_nav ul li a {
 	text-decoration: none;
 	font-size: 12px;
+	display: inline-block;
 	text-transform: uppercase;
 	color: #434343;
-	margin: 0 0 0 45px;	
+	padding: 10px 21px;	
+}
+
+.header_nav ul li:hover {
+	background: rgba(232,232,232,.6);
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+}
+
+.header_nav ul li:first-child a {
+
+}
+
+.header_nav ul.submenu li {
+	border-top: 1px solid #e0e0e0;
+}
+.header_nav ul.submenu li:hover {
+	box-shadow: none;
+	background: rgba(255,255,255,.3);
+}
+
+
+.header_nav ul li .submenu {
+	position:relative;
+	top: 100%;
+	left: 0;
+	display: none;
+}
+.header_nav ul li:hover .submenu {
+	display: block;
 }
 
 .fancybox-skin {
