@@ -24,7 +24,7 @@
   
 <div class="container">
   <h2>Our CEO</h2>
-  <h3>Noah Bremen: Biography</h3>
+  <h3>Noah Bremen Biography</h3>
   <p>Noah Bremen is the Founder of bdirect Companies, the leading retail sales and marketing force behind many of the nation’s hottest products and brands, including Five Hour Energy, Beats by Dre, HydroxyCut, Naked Juice, VitaCoco, NutriBullet, Perfect Pushups, and Muscle Milk, among a host of others.</p>
   <p>Noah is the son of a successful retail sales agent, according to The New York Times, “achieved a kind of flash celebrity in the 1980s as an ubiquitous imposter who slipped past security to shag fly balls in the major leagues, shoot baskets in the NBA and accept somebody else’s Emmy Award on national TV.” Noah acquired his willingness to stand out, his salesmanship, and an incomparable drive to achieve the seemingly impossible from his father. </p>
   <p><img src="Content/Images/ceo.jpg" class="fright" style="margin: 0 0 20px 30px" />Born in Detroit and raised in Bloomfield Hills, Michigan, Bremen graduated from Michigan State University where he studied marketing and advertising and played collegiate baseball. After graduation, Bremen moved to Los Angeles to find his niche meshing his interest in product trends with his passion for understanding what drives consumers to buy. </p>
