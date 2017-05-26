@@ -23,7 +23,7 @@
 <!--#include file="header.html"-->
   
 <div class="container" style="padding-bottom: 0; padding-right: 0;">
-  <img src="Content/Images/network_pic.jpg" width="522" height="657" class="fright" style="margin: -12px 0 20px 0; box-shadow: 0 0 28px 18px rgba(255, 255, 255, 0.9); -webkit-box-shadow:0 0 28px 18px rgba(255, 255, 255, 0.9);" />
+  <img src="//d39hwjxo88pg52.cloudfront.net/bdirectretail/images/network_pic.jpg" width="522" height="657" class="fright" style="margin: -12px 0 20px 0; box-shadow: 0 0 28px 18px rgba(255, 255, 255, 0.9); -webkit-box-shadow:0 0 28px 18px rgba(255, 255, 255, 0.9);" />
   <h2>Retail Network</h2>
   <h3>The reach to take products farther, 
   the resources to drive sales higher.</h3>
@@ -31,7 +31,7 @@
  <p class="f14">Our sterling sales network is augmented by exceptional partners at each of the other top retailers in the US. The bdirect Los Angeles office serves as both your brand ambassador and sales strategy center — ensuring timely execution, seamless marketing, and speed-to-market.</p>
   <p class="f14">&nbsp;</p>
   <p class="f14"><strong>bdirect retail partners include: </strong><br>
-  Walmart, Sam’s Club, Costco, 7-Eleven, Target, Amazon, SuperValu, Safeway, BJ’s, HEB, Kroger, Walgreens, CVS, Rite Aid, Circle K, GNC, Vitamin Shoppe, and Sprouts Food.</p>
+  Walmart, Sam’s Club, Costco, 7-Eleven, Target, Amazon, SuperValu, Safeway, BJ’s, HEB, Kroger, Walgreens, CVS, Rite Aid, <%-- Circle K,--%> GNC, Vitamin Shoppe, and Sprouts Food.</p>
   <p class="f14">Ask us about other accounts where your brand 
     can drive incremental sales.</p>
 
